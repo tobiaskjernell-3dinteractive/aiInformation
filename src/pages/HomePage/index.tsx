@@ -92,7 +92,7 @@ const HomePage = () => {
                 <div>
                     <div className="flex flex-col">
                         <h2 className="text-2xl gold-text">{dataChapters[currentChapter].chapter}</h2>
-                        <h3 className="text-xl italic text-zinc-50">"{dataChapters[currentChapter].subTopics.header}"</h3>
+                        <h3 className="text-xl italic text-zinc-50 mb-2">"{dataChapters[currentChapter].subTopics.header}"</h3>
                     </div>
                     <div>
                         {renderContent(dataChapters[currentChapter].subTopics.content)}
