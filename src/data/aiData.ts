@@ -246,8 +246,8 @@ export const dataChapters: IAiData[] = [
                 'That’s what Mixture of Experts does.',
                 'Instead of one giant brain trying to know everything:',
                 'It has many smaller “expert” brains inside.',
-                'When you ask something:',
                 '--space',
+                'When you ask something:',
                 '--number-start',
                 'A small “manager” part looks at your question.',
                 'It decides which experts are best for this.',
@@ -342,8 +342,6 @@ export const dataChapters: IAiData[] = [
                 '--space',
                 'Super simple summary: Turning words into smart number codes that keep their meaning.',
                 '--space'
-
-
             ]
         }
     }
