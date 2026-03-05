@@ -1,11 +1,11 @@
+import { ChevronLeft } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { dataChapters } from "../../data/aiData";
-import { useChapter, useUnity } from "../../zustand/store";
-import { ChevronLeft } from "lucide-react";
+import { useChapter } from "../../zustand/store";
 
 const NavigationBar = () => {
     const { setCurrentChaper, currentChapter } = useChapter();
-    const { setVisible, isVisible } = useUnity();
+    // const { setVisible, isVisible } = useUnity();
     const [isOpen, setIsOpen] = useState<boolean>(false);
     const dropdownElement = useRef<HTMLDivElement>(null);
 
