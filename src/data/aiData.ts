@@ -533,7 +533,7 @@ export const dataChapters: IAiData[] = [
     {
         chapter: '1.9 What is PyTorch?',
         subTopics: {
-            header: 'A python framwork on fire   ',
+            header: 'A python framework on fire   ',
             content: ['PyTorch is an open-source machine learning framework that is known for its flexibility, ease of use, and performance in modern AI applications. This is enabled in part by its compatibility with the popular Python high-level programming language favored by machine learning developers and AI researchers.',
                 '--space',
                 'PyTorch is a deep learning library built on Python. It provides GPU acceleration, dynamic computation graphs and an intuitive interface for deep learning researchers and developers. PyTorch follows a "define-by-run" approach meaning that its computational graphs are constructed on the fly allowing for better debugging and model customization.',
@@ -564,6 +564,7 @@ export const dataChapters: IAiData[] = [
                 'So PyTorch is basically a toolbox that does the hard math for you.',
                 '--space',
                 'PyTorch = a Python library that helps you build and train AI models easily.',
+                '--space',
                 'It handles:',  
                 '--bullet-start',
                 'big math operations',
