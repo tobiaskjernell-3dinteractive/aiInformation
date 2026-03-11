@@ -41,12 +41,14 @@ const NavigationBar = () => {
                 </div>
                 {
                     <div className={`absolute overflow-hidden duration-300 ${isOpen ? 'max-h-screen' : 'max-h-0 border-b-0 border-t-0'} transition-all top-[calc(100%-1px)] left-0 divide-y border w-full bg-zinc-800`}>
+                          <p className="text-center">Docmost AI Section</p>
                         {dataChapters.map((chapters, index) =>
                             <p onClick={() => handleOnChapterClick(index)}
                                 className={`py-4 lg:py-0 hover:bg-zinc-900 px-2 ${currentChapter === index ? 'bg-zinc-900' : 'bg-zinc-800'}`}
                                 key={index}>{handleString(chapters.chapter)}
                             </p>
                         )}
+                        <p className="text-center">Machine Learning Section</p>
                     </div>
                 }   
             </div>

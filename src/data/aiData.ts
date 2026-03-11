@@ -528,7 +528,54 @@ export const dataChapters: IAiData[] = [
                 "So for a example VLM only uses 'text' and a 'image' modals while other modals uses for example 'audio, text, video...'",
                 '--space'
             ]
-
+        }
+    },
+    {
+        chapter: '1.9 What is PyTorch?',
+        subTopics: {
+            header: 'A python framwork on fire   ',
+            content: ['PyTorch is an open-source machine learning framework that is known for its flexibility, ease of use, and performance in modern AI applications. This is enabled in part by its compatibility with the popular Python high-level programming language favored by machine learning developers and AI researchers.',
+                '--space',
+                'PyTorch is a deep learning library built on Python. It provides GPU acceleration, dynamic computation graphs and an intuitive interface for deep learning researchers and developers. PyTorch follows a "define-by-run" approach meaning that its computational graphs are constructed on the fly allowing for better debugging and model customization.',
+                '--space',
+                'Key Features of PyTorch',
+                '--bullet-start',
+                'It uses dynamic graphs allowing flexibility in model execution and debugging.',
+                'It provides an automatic differentiation engine that simplifies gradient computation for deep learning.',
+                'It supports CUDA allowing computations to be performed efficiently on GPUs.',
+                '--bullet-end',
+                '--space',
+                '......................',
+                '--space',
+                'Lets make this simple!',
+                '--space',
+                'The Problem PyTorch Solves',
+                'Imagine you want a computer to learn patterns.',
+                '--space',
+                'Examples:',
+                '--bullet-start',
+                'Recognize cats in photos',
+                'Understand speech',
+                'Predict stock prices',
+                '--bullet-end',
+                '--space',
+                'To do that, people build neural networks (a kind of math model inspired by the brain).',
+                'But building and training these models from scratch with raw math would be painfully complicated.',
+                'So PyTorch is basically a toolbox that does the hard math for you.',
+                '--space',
+                'PyTorch = a Python library that helps you build and train AI models easily.',
+                'It handles:',  
+                '--bullet-start',
+                'big math operations',
+                'using GPUs',
+                'training neural networks',
+                'adjusting weights automatically',
+                '--bullet-end',
+                '--space',  
+                'PyTorch automates this loop: guess → check error → adjust → repeat',
+                'That adjusting step is called backpropagation, and PyTorch does it automatically.',
+                '--space'
+            ]
         }
     }
 

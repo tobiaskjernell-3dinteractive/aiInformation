@@ -11,12 +11,16 @@
 
 }
 
-body {
+body {  
   font-family: "Jura", serif;
 }
 
 @layer components {
   .gold-text {
     color: #cea86f;
+  }
+
+  .gold-background {
+    background-color: #cea86f;
   }
 }
