@@ -400,6 +400,13 @@ export const dataChapters: IAiData[] = [
                 '--space',
             ]
         }
+    },
+    {
+        chapter:"1.7 What Are Vision Language Models?",
+        subTopics: {
+            header: 'How AI sees and understands images',
+            content: []
+        }
     }
 
 ]   

@@ -4,7 +4,7 @@ import NavigationBar from "../NavigationBar";
 
 const AppLayout = () => {
     return (
-        <div className="flex flex-col h-screen w-screen overflow-hidden relative">
+        <div className="flex flex-col min-h-screen overflow-hidden relative">
             {/* <UnityPreload /> */}
             <NavigationBar />
             <main className="flex-1 bg-zinc-800 flex pt-20 justify-center text-zinc-50">

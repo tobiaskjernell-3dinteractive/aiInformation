@@ -21,7 +21,7 @@ const HomePage = () => {
                 inNumberList = true;
             }
             else if (content === "--bullet-start-nested") {
-                inBulletNested = true;
+                inBulletNested = true;  
             }
             else if (content === '--bullet-end-nested') {
                 if (bulletItemsNested.length > 0) {
