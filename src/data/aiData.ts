@@ -683,5 +683,36 @@ export const dataChapters: IAiData[] = [
                 '--space',
             ]
         }
+    },
+    {
+        chapter: '1.12 Open Source AI',
+        subTopics: {
+            header:"Free and fun but hardware heavy",
+            content: ['Open-source AI refers to models, algorithms, and training data that are publicly available for anyone to inspect, modify, use, and share. Unlike proprietary systems, these tools, such as Mistral Large 3 or Llama, foster transparency, customization, and rapid community-driven innovation across fields like text generation and computer vision.',
+                '--space',
+                'To run models, we need to have our own equipment.',
+                '--space',
+                'The Open Source Initiative (OSI) is finalizing the Open Source AI Definition (OSAID), a standardized, to-be-released definition ensuring AI systems allow users to examine, modify, and share models. It mandates access to model parameters, training data, and source code, addressing inconsistencies in how industry and academia use the term "open source AI"',
+                '--space',
+                '"LF AI & Data" generally refers to the Linux Foundation AI & Data Foundation, a technical organization that supports and sustains open-source innovation in artificial intelligence and data.',
+                '--space',
+                "When releasing a Open Source AI, there must be rules to follow.",
+                'Source code must be accessible under open source term including MIT license or Apache etc .',
+                '--space',
+                'An Open Source AI is an AI system made available under terms and in a way that grant the freedoms to:',
+                '--bullet-start',
+                'Use the system for any purpose and without having to ask for permission.',
+                'Study how the system works and inspect its components.',
+                'Modify the system for any purpose, including to change its output.',
+                'Share the system for others to use with or without modifications, for any purpose.',
+                '--bullet-end',
+                '--space',
+                'One challenge with open-source ai is "openess".',
+                'Open-source AI faces a critical challenge balancing transparent innovation with risks like misuse, as many "open" models are only partially open (weights-only) rather than fully transparent (data, code, and weights).',
+                'It also needs a large amount of GPU/graphic card power to run smoothly.',
+                '--space',
+                'But the fun with open-source ai is that you can use on your own pc/laptop or a server at your company for more power. Expriment around and try different solutions for free and implement solutions into your projects.'
+            ]
+        }
     }
 ]   
