@@ -46,7 +46,8 @@ export const dataChapters: IAiData[] = [
                 "Picks what word should come next",
                 "Repeats that thousands of times very fast",
                 "--number-end",
-                "That’s it."
+                "That’s it.",
+                '--space'
             ]
         }
     },
@@ -711,7 +712,52 @@ export const dataChapters: IAiData[] = [
                 'Open-source AI faces a critical challenge balancing transparent innovation with risks like misuse, as many "open" models are only partially open (weights-only) rather than fully transparent (data, code, and weights).',
                 'It also needs a large amount of GPU/graphic card power to run smoothly.',
                 '--space',
-                'But the fun with open-source ai is that you can use on your own pc/laptop or a server at your company for more power. Expriment around and try different solutions for free and implement solutions into your projects.'
+                'But the fun with open-source ai is that you can use on your own pc/laptop or a server at your company for more power. Expriment around and try different solutions for free and implement solutions into your projects.',
+                '--space'
+            ]
+        }
+    },
+    {
+        chapter: "1.13 Should You Use Open Source Large Language Models?",
+        subTopics: {
+            header:"Open-Source AI",
+            content:['Right now on Huggingface (https://huggingface.co/) there are more than 2.7million models out for people to use.',
+                'Huggingface benchmarks different LLMs and also showing you the popularity and usecases.',
+                '--space',
+                'When we talking about LLMs we talk about generative models (based on user input prompt), specifically proprietary models and open-source models.',
+                '--space',
+                'Proprietary models are own by a company and can be controlled by usage (Claude, Chatgpt, Cursor etc, they have a license for each month/year) while open-source models are free.',
+                '--space',
+                'Proprietary models are usually far larger than open-source models especially paramter size (generally, more parameters mean higher model capacity to understand complex patterns but require more computational power and memory (VRAM) to run).',
+                '--space',
+                'Benefits',
+                '--bullet-start',
+                'Transparency (insight of architecture, how they work, training pipeline',
+                'Pre-trained LLMs lets you Fine-tune (we can add feature to the LLM of our needs, we can train it on specific data-sets)',
+                'Communuty (other people can work on it and also you can share it)',
+                '--bullet-end',
+                '--space',
+                'Organizations (big companies using open-source',
+                '--bullet-start',
+                'NASA/IBM',
+                'Healthcare',
+                'FinGPT (financial)',
+                '--bullet-end',
+                '--space',
+                'Models (what they are based on)',
+                '--bullet-start',
+                'LLAMA2 (provided by Meta AI)',   
+                'Vicuna (created on top of LLAMA2, fine-tuned by their ideas)',
+                'BLOOM (big science, multilingual model)',
+                '--bullet-end',
+                '--space',
+                'Risks (for both open-source and propriety)',
+                '--bullet-start',
+                'Hallucinations',
+                'BIAS (source is not representative)',
+                'Security problems (fishing)',
+                '--bullet-end',
+                '--space'
             ]
         }
     }

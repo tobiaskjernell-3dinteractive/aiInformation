@@ -1,0 +1,10 @@
+$env:ANTHROPIC_BASE_URL="https://vllm.3dinteractive.cloud/v1"
+$env:ANTHROPIC_API_KEY="dummy-key"
+$env:ANTHROPIC_DEFAULT_OPUS_MODEL="/models/qwen35"
+
+$env:ANTHROPIC_BASE_URL=https://vllm.3dinteractive.cloud/v1 \
+$env:ANTHROPIC_API_KEY=dummy-key \
+$env:ANTHROPIC_DEFAULT_OPUS_MODEL=/models/qwen35 \
+$env:ANTHROPIC_DEFAULT_SONNET_MODEL=/models/qwen35 \
+$env:ANTHROPIC_DEFAULT_HAIKU_MODEL=/models/qwen35 \
+claude

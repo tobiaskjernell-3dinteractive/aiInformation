@@ -1,0 +1,9 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "http://localhost:8000",
+    "ANTHROPIC_API_KEY": "dummy",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "/models/qwen35",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "/models/qwen35",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "/models/qwen35"
+  }
+}

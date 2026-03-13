@@ -1,0 +1,13 @@
+{
+  "name": "vllm-gateway",
+  "version": "1.0.0",
+  "description": "Gateway to bridge Claude Code with vLLM",
+  "main": "vllm-gateway.js",
+  "scripts": {
+    "start": "node vllm-gateway.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  }
+}
