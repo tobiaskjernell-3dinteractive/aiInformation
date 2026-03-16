@@ -760,5 +760,36 @@ export const dataChapters: IAiData[] = [
                 '--space'
             ]
         }
+    },
+    {
+        chapter: "1.14 Llama: The Open-Weight AI Model",
+        subTopics:{
+            header: "Llama the animal?",
+            content: ['Llama (Large Language Model Meta AI) is a family of state-of-the-art, open-source large language models (LLMs) and multimodal models developed by Meta. Ranging from smaller to massive sizes, Llama models are designed for high performance in text generation, reasoning, coding, and image understanding, and are available for free research and commercial use.',
+                'Unlike proprietary models like GPT or Gemini, Llama allows researchers and developers to access, fine-tune, and deploy the models on their own infrastructure.',
+                '--space',
+                'Key benefits',
+                '--number-start',
+                'Transparant',
+                'Customizable',
+                'Accuracy',
+                '--number-end',
+                '--space',
+                'Llama is smaller than other models on the market, it means less money, less time which saves up production time when fine-tuning for your purpose.',
+                '--space',
+                'First version came out Feb/2023 (V1.0) with the sizes of 7B-65B  parameter model. Much smaller than other models during this time.',
+                '--space',
+                'Second version came out July/2023 (V2.0) with sizes 7B-70B paramter models. This version had a much better performance but holding a similiar size.',
+                '--space',
+                'A new model came out Aug/2023 (Code Llama) focusing on code only, one of them focused specific on Python.',
+                '--space',
+                'Third version of original Llama came out April/2024 (V3.0). Same range on size as previous models but with much better performance.',
+                '--space',
+                'Fourth version came out July/2024 (V3.1), special version because this one is multilingual.',
+                'This model also had a increased context-window. Llama Guard is built in for security.',
+                '405B parameter model with really good performance',
+                '--space'
+            ]
+        }
     }
 ]   
