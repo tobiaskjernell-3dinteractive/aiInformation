@@ -791,5 +791,41 @@ export const dataChapters: IAiData[] = [
                 '--space'
             ]
         }
+    }, 
+    {
+        chapter: "2.0 What is Retrieval-Augmented Generation (RAG)?",
+        subTopics: {
+            header: "RAG intro",
+            content: ['Retrieval-Augmented Generation (RAG) is an AI framework that improves the accuracy and relevance of outputs from Large Language Models (LLMs) by connecting them to external knowledge sources',
+                '--space',
+                'Instead of relying solely on the data the model was trained on—which can be outdated or incorrect—RAG allows the model to look up relevant information from trusted, up-to-date sources (such as company databases, documents, or the internet) before generating a response.',
+                '--space',
+                'Here’s the super simple version:',
+                'Imagine a student taking an exam.',
+                '--space',
+                'There are two types of students:', 
+                '--space',
+                '--number-start',
+                'Student A (normal AI/LLM)',
+                '--number-end',
+                '--bullet-start',
+                'Answers questions only from memory.',
+                'If they don’t remember something well, they might guess.',
+                '--bullet-end',
+                '--space',
+                '--number-start',
+                'Student B (RAG AI)',   
+                '--number-end',
+                '--bullet-start',
+                'First opens a textbook and finds the relevant page.',
+                'Then uses that page to write the answer.',
+                '--bullet-end',
+                '--space',
+                'RAG = AI that checks notes before answering.',
+                '--space',
+                'We will dive into more in next section!',  
+                '--space'
+            ]
+        }
     }
 ]   
