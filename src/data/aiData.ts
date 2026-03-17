@@ -796,7 +796,7 @@ export const dataChapters: IAiData[] = [
         chapter: "2.0 What is Retrieval-Augmented Generation (RAG)?",
         subTopics: {
             header: "RAG intro",
-            content: ['Retrieval-Augmented Generation (RAG) is an AI framework that improves the accuracy and relevance of outputs from Large Language Models (LLMs) by connecting them to external knowledge sources',
+            content: ['Retrieval-Augmented Generation (RAG) is an AI framework that improves the accuracy and relevance of outputs from Large Language Models (LLMs) by connecting them to external knowledge sources.',
                 '--space',
                 'Instead of relying solely on the data the model was trained on—which can be outdated or incorrect—RAG allows the model to look up relevant information from trusted, up-to-date sources (such as company databases, documents, or the internet) before generating a response.',
                 '--space',
@@ -825,6 +825,44 @@ export const dataChapters: IAiData[] = [
                 '--space',
                 'We will dive into more in next section!',  
                 '--space'
+            ]
+        }
+    },
+    {
+        chapter: '2.1 RAG Explained',
+        subTopics: {
+            header: "RAG Pipeline",
+            content: ['A Retrieval-Augmented Generation (RAG) pipeline enhances LLM outputs by fetching relevant external data before generating a response. It operates in two main phases: ingestion (parsing, chunking, and embedding documents into a vector database) and retrieval/generation (searching for relevant context, prompting the LLM, and generating the final answer).',
+                "--space",
+                "Retrieval-Augmented Generation (RAG) is the process of optimizing the output of a large language model, so it references an authoritative knowledge base outside of its training data sources before generating a response. Large Language Models (LLMs) are trained on vast volumes of data and use billions of parameters to generate original output for tasks like answering questions, translating languages, and completing sentences. RAG extends the already powerful capabilities of LLMs to specific domains or an organization's internal knowledge base, all without the need to retrain the model. It is a cost-effective approach to improving LLM output so it remains relevant, accurate, and useful in various contexts.",
+                '--space',
+                "How it Works: When a query is entered, the system converts it into a numerical representation (embedding) and searches a vector database for relevant chunks of information. This data is injected into the prompt, allowing the LLM to generate an accurate response based on that retrieved context.",
+                '--space',
+                'Key benefits',
+                '--bullet-start',
+                'Accuracy: Reduces inaccuracies and "hallucinations" (made-up facts) by anchoring responses in truth.',
+                'Up-to-Date Data: Connects models to live, real-time data sources rather than relying on outdated training data.',
+                'Data Security: Allows AI to work with private, internal, or sensitive documents securely.',
+                'Cost-Effective: Avoids expensive retraining or fine-tuning of models.',
+                '--bullet-end',
+                '--space',
+                'Simple version:',
+                'Database Setup:',
+                '--number-start',
+                'We chunk every text sentence/word into bits from a document/pdf/text file etc.. (from a built app)',
+                'Using the Embedding method to turn those chunks into vectors',
+                'We upload into a database(vector supported table)',
+                '--number-end',
+                '--space',
+                'From the user/customer side:',
+                '--number-start',
+                'In a chat-window or textfield they write a query/question',
+                'Question chunks down into pieces (same chunk size and workflow as the upload)',
+                'We use the Embedding method to turn it into vectors',
+                'We send it database (also backend to use similiarity methods) to get information from vector table.',
+                'When we get it back, we let the LLM model to prompt a answer based on the vectors',
+                '--number-end',
+                '--space',
             ]
         }
     }
