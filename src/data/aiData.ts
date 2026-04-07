@@ -869,7 +869,7 @@ export const dataChapters: IAiData[] = [
     {
         chapter: "2.2 RAG vs Fine-Tuning",
         subTopics: {
-            header: "",
+            header: "External data vs precise data",
             content: [`The difference between RAG and fine-tuning is that RAG augments a natural language processing (NLP) model by connecting it to an organization’s proprietary database, while fine-tuning optimizes deep learning models for domain-specific tasks.`,
                 '--space',
                 "RAG and fine-tuning have the same intended outcome: enhancing a model’s performance to maximize value for the enterprise that uses it.",
