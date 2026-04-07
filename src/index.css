@@ -23,4 +23,19 @@ body {
   .gold-background {
     background-color: #cea86f;
   }
+
+    .noScrollbar {
+    scrollbar-width: 0;
+  }
+
+  .noScrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+* {
+  scrollbar-width: 0;
+  ::-webkit-scrollbar {
+    display: none;
+  } 
 }

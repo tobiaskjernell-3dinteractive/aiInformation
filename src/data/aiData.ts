@@ -677,7 +677,7 @@ export const dataChapters: IAiData[] = [
                 '--space',
                 'Closed AI Application',
                 '--bullet-start',
-                'Built from scratch (already done with support)',       
+                'Built from scratch (already done with support)',
                 '--bullet-end',
                 '--space',
                 'Summary: Closed AI is pre-built and closed, and Open Source AI is open to do whatever we want.',
@@ -688,7 +688,7 @@ export const dataChapters: IAiData[] = [
     {
         chapter: '1.12 Open Source AI',
         subTopics: {
-            header:"Free and fun but hardware heavy",
+            header: "Free and fun but hardware heavy",
             content: ['Open-source AI refers to models, algorithms, and training data that are publicly available for anyone to inspect, modify, use, and share. Unlike proprietary systems, these tools, such as Mistral Large 3 or Llama, foster transparency, customization, and rapid community-driven innovation across fields like text generation and computer vision.',
                 '--space',
                 'To run models, we need to have our own equipment.',
@@ -720,8 +720,8 @@ export const dataChapters: IAiData[] = [
     {
         chapter: "1.13 Should You Use Open Source Large Language Models?",
         subTopics: {
-            header:"Open-Source AI",
-            content:['Right now on Huggingface (https://huggingface.co/) there are more than 2.7million models out for people to use.',
+            header: "Open-Source AI",
+            content: ['Right now on Huggingface (https://huggingface.co/) there are more than 2.7million models out for people to use.',
                 'Huggingface benchmarks different LLMs and also showing you the popularity and usecases.',
                 '--space',
                 'When we talking about LLMs we talk about generative models (based on user input prompt), specifically proprietary models and open-source models.',
@@ -746,7 +746,7 @@ export const dataChapters: IAiData[] = [
                 '--space',
                 'Models (what they are based on)',
                 '--bullet-start',
-                'LLAMA2 (provided by Meta AI)',   
+                'LLAMA2 (provided by Meta AI)',
                 'Vicuna (created on top of LLAMA2, fine-tuned by their ideas)',
                 'BLOOM (big science, multilingual model)',
                 '--bullet-end',
@@ -763,7 +763,7 @@ export const dataChapters: IAiData[] = [
     },
     {
         chapter: "1.14 Llama: The Open-Weight AI Model",
-        subTopics:{
+        subTopics: {
             header: "Llama the animal?",
             content: ['Llama (Large Language Model Meta AI) is a family of state-of-the-art, open-source large language models (LLMs) and multimodal models developed by Meta. Ranging from smaller to massive sizes, Llama models are designed for high performance in text generation, reasoning, coding, and image understanding, and are available for free research and commercial use.',
                 'Unlike proprietary models like GPT or Gemini, Llama allows researchers and developers to access, fine-tune, and deploy the models on their own infrastructure.',
@@ -791,7 +791,7 @@ export const dataChapters: IAiData[] = [
                 '--space'
             ]
         }
-    }, 
+    },
     {
         chapter: "2.0 What is Retrieval-Augmented Generation (RAG)?",
         subTopics: {
@@ -803,7 +803,7 @@ export const dataChapters: IAiData[] = [
                 'Here’s the super simple version:',
                 'Imagine a student taking an exam.',
                 '--space',
-                'There are two types of students:', 
+                'There are two types of students:',
                 '--space',
                 '--number-start',
                 'Student A (normal AI/LLM)',
@@ -814,7 +814,7 @@ export const dataChapters: IAiData[] = [
                 '--bullet-end',
                 '--space',
                 '--number-start',
-                'Student B (RAG AI)',   
+                'Student B (RAG AI)',
                 '--number-end',
                 '--bullet-start',
                 'First opens a textbook and finds the relevant page.',
@@ -823,7 +823,7 @@ export const dataChapters: IAiData[] = [
                 '--space',
                 'RAG = AI that checks notes before answering.',
                 '--space',
-                'We will dive into more in next section!',  
+                'We will dive into more in next section!',
                 '--space'
             ]
         }
@@ -863,6 +863,47 @@ export const dataChapters: IAiData[] = [
                 'When we get it back, we let the LLM model to prompt a answer based on the vectors',
                 '--number-end',
                 '--space',
+            ]
+        }
+    },
+    {
+        chapter: "2.2 RAG vs Fine-Tuning",
+        subTopics: {
+            header: "",
+            content: [`The difference between RAG and fine-tuning is that RAG augments a natural language processing (NLP) model by connecting it to an organization’s proprietary database, while fine-tuning optimizes deep learning models for domain-specific tasks.`,
+                '--space',
+                "RAG and fine-tuning have the same intended outcome: enhancing a model’s performance to maximize value for the enterprise that uses it.",
+                "RAG uses an organization’s internal data to augment prompt engineering, while fine-tuning retrains a model on a focused set of external data to improve performance.",
+                '--space',
+                'RAG plugs an LLM into stores of current, private data that would otherwise be inaccessible to it. RAG models can return more accurate answers with the added context of internal data than they otherwise would be able to without it.',
+                'A fine-tuned model typically outperforms its corresponding base model, such as GPT-3 or GPT-4, when applying its training with domain-specific data. The fine-tuned LLM has a better understanding of the specific domain and its terminology, allowing it to generate accurate responses.',
+                '--space',
+                'Without continual access to new data, large language models stagnate. Modern LLMs are massive neural networks requiring huge data sets and computational resources to train. Even the largest LLM vendors, such as Meta, Microsoft and OpenAI, periodically retrain their models—which makes any LLM near-instantly obsolete the moment it’s released into the wild.',
+                '--space',
+                'When models can’t learn from new data, they often hallucinate or confabulate: a phenomenon that occurs when gen AI models “make up” answers to questions they cannot definitively answer. Generative AI models use complex statistical algorithms to predict answers to user queries. If a user asks something the AI can’t easily find within its training data set, the best it can do is guess.',
+                '--space',
+                '......................',
+                '--space',
+                'Super simple analogy:',
+                '--bullet-start',
+                'Fine-tuning = “memorize this forever”',
+                'RAG = “look it up when needed”',
+                '--bullet-end',
+                '--space',
+                'When to use what?',
+                '--bullet-start',
+                'Use Fine-tuning when:',
+                '--bullet-start-nested',
+                'You want a specific tone, style, or behavior',
+                'e.g., customer support personality',
+                '--bullet-end-nested',
+                'Use RAG when:',
+                '--bullet-start-nested',
+                'You need up-to-date or private info',
+                'e.g., company docs, databases',
+                '--bullet-end-nested',
+                '--bullet-end',
+                '--space'
             ]
         }
     }
